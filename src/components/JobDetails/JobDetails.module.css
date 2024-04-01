@@ -1,0 +1,144 @@
+body {
+    background-color: #87CEEB;
+    margin: 0; /* Remove default margin */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+
+.nav {
+    width: 100vw;
+    height: 10vh;
+    border-radius: 0px 0px 50px 50px;
+    background: #6d53ed;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.navText {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.login {
+    border-radius: 6px;
+    padding: 0.5em 1em;
+    border: 2px solid white;
+    color: #ffffff;
+    font-weight: 600;
+    background: transparent;
+}
+
+.btnGrp {
+    display: flex;
+    gap: 1rem;
+}
+
+.register {
+    border-radius: 6px;
+    padding: 0.5em 1em;
+    border: 2px solid white;
+    color: #6d53ed;
+    font-weight: 600;
+    background: white;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px; /* Set maximum width for responsiveness */
+    margin: 10vh auto; /* Center container vertically and horizontally */
+    padding: 2rem 1rem;
+    background-color: white;
+    box-shadow: 0px 4px 23px 2px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden; /* Hide vertical scrollbar */
+}
+
+.containerBottom {
+    width: 80%;
+    max-width: 1200px; /* Set maximum width for responsiveness */
+    margin: 10vh auto; /* Center container vertically and horizontally */
+    background-color: white;
+    box-shadow: 0px 4px 23px 2px rgba(0, 0, 0, 0.1);
+    padding: 2rem 3rem;
+}
+
+.lightText {
+    color: #595959;
+}
+
+.lightText2 {
+    margin-top: 0px;
+    margin-left: 2px;
+    color: #999999;
+}
+
+.containerText {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.boldText {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.locationText {
+    color: #0a0a0a;
+    margin: 0rem;
+}
+
+.info {
+    margin: 1.5rem auto;
+}
+
+.info h2 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.perks {
+    display: flex;
+    margin-top: 1rem;
+}
+
+
+.skill {
+    font-size: 0.9rem;
+    background-color: #87CEEB;
+    color: #595959;
+    padding: 0.6rem 1rem;
+    border-radius: 9999px;
+    margin-right: 1rem;
+    display: inline;
+}
+
+.edit {
+    background-color: #87CEEB;
+    border-radius: 6.50784px;
+    padding: 1em 2em;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Add media query for responsiveness */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 1rem; /* Adjust padding for smaller screens */
+    }
+
+    .containerBottom {
+        padding: 2rem; /* Adjust padding for smaller screens */
+    }
+}

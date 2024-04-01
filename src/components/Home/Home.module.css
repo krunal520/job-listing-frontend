@@ -1,0 +1,173 @@
+/* Home.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #87CEEB;
+    padding-bottom: 2rem;
+
+}
+
+.container1 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #87CEEB;
+    padding-bottom: 2rem;
+
+
+}
+
+.filterContainer {
+    width: 80%;
+    max-width: 800px;
+    background-color: #FFF;
+    box-shadow: 0px 4px 23px 2px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.jobContainer {
+    width: 80%;
+    max-width: 800px;
+    background-color: #F0F8FF;
+    /* Light blue background for job container */
+    padding: 1rem;
+    box-shadow: 0px 4px 23px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+}
+
+.edit {
+    background: #4682B4;
+    /* Darker shade of blue for buttons */
+    border-radius: 6.50784px;
+    padding: 0.8em 1.5em;
+    border: none;
+    color: white;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.logout{
+    background: red;
+        border-radius: 6.50784px;
+        padding: 0.8em 1.5em;
+        border: none;
+        color: white;
+        font-weight: 600;
+        cursor: pointer;
+        position: absolute;
+        top: 5px; /* Adjust top position */
+        right: 5px; /* Adjust right position */
+}
+
+.inputTop,
+.inputSelect {
+    width: calc(100% - 24px);
+    padding: 0.8em;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.list {
+    width: 100%;
+    background-color: #F0F8FF;
+    /* Light blue background for job list */
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.companyInfo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.companyDetails {
+    flex-grow: 1;
+}
+
+.companyName {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.extraInfo {
+    color: #888;
+    margin-bottom: 0.5rem;
+}
+
+.skillView {
+    display: flex;
+    align-items: center;
+
+}
+
+.skill {
+    background-color: #87CEEB;
+    /* Sky blue background for skills */
+    color: black;
+    padding: 0.6rem;
+    border-radius: 6px;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+    
+}
+
+.view {
+    background-color: transparent;
+    border: 1px solid #4682B4;
+    /* Darker shade of blue for border */
+    border-radius: 6px;
+    padding: 0.8em 1.5em;
+    color: #4682B4;
+    /* Darker shade of blue for text */
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-right: 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .filterContainer,
+    .jobContainer {
+        width: 90%;
+    }
+
+    .inputTop,
+    .inputSelect {
+        width: calc(100% - 16px);
+    }
+
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .companyName {
+        font-size: 1rem;
+    }
+}
