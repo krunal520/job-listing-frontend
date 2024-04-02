@@ -263,7 +263,7 @@ export default function JobPost() {
             <button onClick={handleSubmit} className={styles.add}>
                 {state?.edit ? "Edit Job" : "+ Add Job "}
             </button>
-            <button className={styles.cancel}>Cancel</button>
+            <button className={styles.cancel} onClick={() => navigate("/")} >Cancel</button>
         </div>
     );
 }

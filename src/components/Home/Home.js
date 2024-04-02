@@ -1,4 +1,3 @@
-// home.js
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./Home.module.css";
@@ -104,7 +103,7 @@ export default function Home() {
                             <div key={data._id} className={styles.list}>
                                 <div className={styles.listLeft}>
                                     <div>
-                                        <img src={data.logoURL} alt="Company Logo" />
+                                        <img src={data.logoURL}  />
                                         <p className={styles.containerText}>
                                             {data?.companyName}
                                         </p>
@@ -115,13 +114,17 @@ export default function Home() {
                                         </p>
                                         <p className={styles.extraInfo}>
                                             <span className={styles.greyText}>
-                                                11-50
+                                            Stipend : 
                                             </span>
                                             <span className={styles.greyText}>
-                                                {data.salary}
+                                                  {" "+data.salary}
+                                            </span>
+                                            <br/>
+                                            <span className={styles.greyText}>
+                                            Location : 
                                             </span>
                                             <span className={styles.greyText}>
-                                                {data.location}
+                                                {" "+data.location}
                                             </span>
                                         </p>
                                         <p className={styles.extraInfo}>

@@ -82,13 +82,13 @@
 .cancel {
     background: #ffffff;
     border: 0.848485px solid #cecece;
-    height: 48px;
+    height: 40px;
     border-radius: 6.50784px;
     padding: 1em 2em;
     float: right;
 
     margin-right: 16px;
-    color: #adadad;
+    color: #0a0a0a;
 }
 
 .add {
