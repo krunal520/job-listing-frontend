@@ -1,5 +1,5 @@
 import axios from "axios";
-const backendUrl = `https://job-listing-backend-production-9b64.up.railway.app`;
+const backendUrl = `https://job-listing-backend-production-9b64.up.railway.app/api/v1`;
 
 export const registerUser = async ({ email, password, mobile, name }) => {
     try {
