@@ -1,6 +1,6 @@
 import axios from "axios";
 import { Navigate } from "react-router-dom";
-const backendUrl = `http://localhost:8000/api/v1`;
+const backendUrl = `https://job-listing-backend-production-9b64.up.railway.app`;
 
 export const createJobPost = async (JobPostPayload) => {
     try {
