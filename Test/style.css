@@ -1,0 +1,14 @@
+.container {
+    display: box; /* Use flexbox to arrange elements */
+  }
+  .box {
+    width: 50%; /* Each box takes 50% of the container's width */
+    height: 200px; /* Set the height of the boxes */
+    border: 1px solid black; /* Add border for visualization */
+    box-sizing: border-box; /* Include border in width calculation */
+  }
+
+  body{
+    background-image:  url(8ed4040e06e68818a07c3e15ac7c18dc.jpg );
+    image-resolution: 10;
+  }
